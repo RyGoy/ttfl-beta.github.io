@@ -1,0 +1,31 @@
+{{ define "main"}}
+<html>
+<body>
+    <!--{{ partial "header" (dict "Kind" .Kind "Template" "List") }}-->
+       
+    {{ range .Pages }} <!-- THIS IS VOLUME 1 LIST PAGE TEMPLATE-->
+    
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 overflow-hidden rounded-lg bg-white shadow">
+  <div class="px-4 py-5 sm:p-6">
+     <!-- Content goes here -->
+     <div class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+        <img src="/images/viii.jpg">
+     </div>
+     {{ partial "lpPosts" . }}
+     
+  </div>
+  <div class="mx-auto max-w-3xl bg-gray-50 px-4 py-4 sm:px-6">
+    <!-- Content goes here -->
+    <!-- We use less vertical padding on card footers at all sizes than on headers or body sections -->
+    <div>
+      {{ partial "lpGo" . }}
+    </div>
+  </div>
+</div><br><br>
+
+    {{ end }}
+    
+</body>
+<script src="/js/buttons.js"></script>
+</html>
+{{end}}

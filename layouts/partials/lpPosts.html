@@ -1,0 +1,29 @@
+<div>
+  
+  <h2><strong>{{.Params.from_name}}</strong></h2>
+  {{ $t1 := .Params.created_time }}
+  {{ $t1 = time.AsTime $t1 }}
+  {{ $t1 = $t1.Format "Jan 02, 2006 3:04 PM" }}
+  {{ $t2 := .Params.created_time }}
+  {{ $t2 = time.AsTime $t2 }}
+  {{ $t2 = $t2.Format "Jan 02, 2006 3:04 PM" }}
+  
+  {{ $t1 }}<br><br>
+  {{.Params.message}}
+  <br><br>     
+  {{ $link1 := ""}}
+  {{ $link2 := "None"}}
+  
+  {{ if or $link1 $link2 }} <!-- THEN We will not print blank space-->
+    <a href="{{.Params.link}}" class="text-indigo-600 hover:text-indigo-500"><strong>{{.Params.link}}</strong></a><br>
+    <a><strong>{{.Params.name}}</strong><br>{{.Params.caption}}<br>{{.Params.description}}</a>
+  {{else}}
+    {{.Params.from_name}}
+  {{end}}
+
+  <br>Unique Facebook User ID: {{.Params.from_id}}<br>
+  Last Updated: {{ $t2 }}<br>
+  {{.Params.source}}
+  Type of Post: {{.Params.type}}<br>
+  Place of Post: {{.Params.place}}
+</div> 

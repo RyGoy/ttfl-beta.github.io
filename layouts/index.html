@@ -1,0 +1,29 @@
+<html>
+    {{ block "head" . }} {{end}}
+<body>
+    {{ block "navbar" . }} {{end}}
+    <!--{{ partial "alert"}}-->
+    <!--{{ partial "header" }}
+    <!--{{ partial "body" }}-->
+
+    <h1>{{.Title}}</h1>
+    Layous/index.html
+
+
+    
+    <!--<div class="divide-y divide-gray-200 overflow-hidden rounded-lg bg-white shadow">
+        <div class="px-4 py-5 sm:p-6">
+          <!- Content goes here ->
+          <h1>{{.Title}}</h1>
+        </div>
+        <div class="px-4 py-4 sm:px-6">
+          <!- Content goes here ->
+          <img src="/images/invalidpolicy.jpg" style="border-radius:8px">
+          <!- We use less vertical padding on card footers at all sizes than on headers or body sections -->
+        <!--</div>
+    </div>-->
+
+    {{ block "footer" . }} {{end}}
+</body>
+<script src="/js/buttons.js"></script>
+</html>
