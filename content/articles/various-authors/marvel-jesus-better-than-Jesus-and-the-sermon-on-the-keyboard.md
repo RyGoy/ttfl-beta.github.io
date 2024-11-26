@@ -1,5 +1,5 @@
 +++
-author = "INGENIUM HOLDINGS INC."
+author = "Ryan"
 title = "Marvel Jesus, Better Than Jesus, & The Sermon on The Keyboard"
 date = "2024-11-23"
 tags = [
@@ -12,7 +12,7 @@ categories = [
     "Agency",
     "Accounting",
 ]
-weight = "1"
+weight = "12"
 +++
 
 [](https://www.minds.com/fs/v1/banners/1707108014374260748/1732488812)
