@@ -15,18 +15,22 @@ categories = [
 weight = "12"
 +++
 
+---
+
 ![image](https://github.com/user-attachments/assets/bc2df4c5-c6d4-4394-9f85-b5deaf00356a)
 
+---
 
-##### Marvel Jesus, Better Than Jesus, & The Sermon on The Keyboard
+## Marvel Jesus, Better Than Jesus, & The Sermon on The Keyboard
 
-Appointed by "N" for "Not Surety", 
+Appointed by "N" for "Not Surety",
+
 A reference to THE TENDER FOR LAW on Facebook.
 
- 
 
 Shared under a Creative Commons 3.0 Unported License; BY-ND-NC
 (c) INGENIUM HOLDINGS INCORPORATED 
+
 
 I promised to handle this “thing” with the greatest care, so "what is it?" you might ask, how did I become a holder of it, and what does this stewardship mean? What does accounting have to do with the “Kingdom of God”?
  
