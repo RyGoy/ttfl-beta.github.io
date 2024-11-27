@@ -15,7 +15,8 @@ categories = [
 weight = "12"
 +++
 
-[](https://www.minds.com/fs/v1/banners/1707108014374260748/1732488812)
+![image](https://github.com/user-attachments/assets/bc2df4c5-c6d4-4394-9f85-b5deaf00356a)
+
 
 ##### Marvel Jesus, Better Than Jesus, & The Sermon on The Keyboard
 
